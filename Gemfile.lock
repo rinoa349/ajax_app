@@ -105,6 +105,8 @@ GEM
     minitest (5.18.0)
     msgpack (1.7.0)
     mysql2 (0.5.5)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.4)
       date
       net-protocol
@@ -202,6 +204,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
+    uri (0.12.1)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -233,6 +236,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mysql2 (>= 0.4.4)
+  net-http
   pg
   pry-rails
   puma (~> 4.1)
